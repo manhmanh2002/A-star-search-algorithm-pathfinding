@@ -69,7 +69,7 @@ public class PathFinder {
 		return canvas;
 	}
 
-	public void demo() {
+	public void start() {
 		final Parameters parameters = new Parameters();
 		final ControlPanel controlPanel = new ControlPanel(parameters);
 
@@ -140,11 +140,6 @@ public class PathFinder {
 		frame.setLocationRelativeTo(null);
 		frame.setVisible(true);
 	}
-
-	public static void main(String[] args) {
-		new PathFinder().demo();
-	}
-
 }
 
 
